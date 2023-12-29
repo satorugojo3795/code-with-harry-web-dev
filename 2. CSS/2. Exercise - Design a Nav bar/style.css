@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --nav_color: rgb(93, 7, 87);
+    --text_color: white;
+    --background_color: rgb(255, 9, 255);
+}
+
+body{
+    background-color: var(--background_color);
+}
+.nav{
+    height: 100px;  
+    background-color: var(--nav_color);
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin-right: 35px;
+    font-size: 45px;
+    color: var(--text_color);
+    /* border: 1px black solid; */
+
+}

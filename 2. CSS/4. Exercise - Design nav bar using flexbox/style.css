@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin-right: 30px;;
+}
+
+img{
+    margin-right:500px;
+}

@@ -1,0 +1,45 @@
+.container{
+    background-color: blue;
+    height: 80vh;
+    position: relative;
+    width: 80vw;
+}
+
+.ball{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    animation: moveUpDown 3s infinite;
+}
+
+@keyframes moveUpDown {
+    0%{
+        transform: translateX(0) translateY(0);
+        transition-timing-function: ease-out;
+        
+    }
+    25% {
+        transform: translateX(20vw) translateY(-40vh);
+        transition-timing-function: ease-in;
+
+    }
+    50% {
+        transform: translateX(40vw) translateY(0);
+        transition-timing-function: ease-out;
+
+    }
+    75% {
+        transform: translateX(60vw) translateY(-40vh);
+        transition-timing-function: ease-in;
+
+    }
+    100%{
+        transform: translateX(77.5vw) translateY(0);
+        transition-timing-function: ease-out;
+
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <!-- <img src=""logo.svg alt=""> -->
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img src="logo.svg" class="invert" alt="">
+                </div>
+                <ul>
+                    <li><img src="home.svg" class="invert" alt="home">Home</li>
+                    <li><img src="search.svg"  class="invert" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="playlist.svg" class="invert" alt=""">
+                    <h2>
+                        Your Library
+                    </h2>    
+                </div>
+                <div class="footer">
+                    <div data-testid="left-sidebar-footer">
+                        <div data-testid="left-sidebar-legal-links">
+                          <a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener">
+                            <span data-encore-id="type">Cookies</span>
+                          </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <img src="left.svg" class="invert arrow left-arrow" alt="">
+                    <img src="right.svg" class="invert arrow right-arrow" alt="">
+                </div>
+                <div class="buttons">
+                    <button>Sign up</button>
+                    <button>Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Larger green circle background with padding -->
+                                <circle cx="12" cy="12" r="12" fill="#00FF00" />
+                        
+                                <!-- Your original path, centered and moved up within the larger circle -->
+                                <g transform="translate(6, 4)">
+                                    <path d="M0 12V0L14 8L0 16Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round"/>
+                                </g>
+                            </svg>                                
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep.</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f0000000281722192322800ae99c2ed06" alt="">
+                        <h2>Sleep</h2>
+                        <p>Gentle Ambient piano to help you fall asleep.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
