@@ -18,7 +18,7 @@ Step 3:  create src/input.css to include:
 @tailwind utilities;
 ```
 
-Step 4: Include the src/output.css to your html filer
+Step 4: Include the src/output.css to your html file
 
 Step 5: Run the following command:
 ```
